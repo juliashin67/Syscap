@@ -58,7 +58,7 @@ class Graph():
         return self.allNodes
 
     def getNodeCount(self):
-        return len(self.allNodes)
+        return len(self.allNodes) 
 
     def addNode(self, nodeName):
         if ( not self.adjGraph.get(nodeName, None) ):
